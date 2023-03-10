@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <form name="Sextou" id="formulário_cadastro" action="formulário2.html">
+        <label>Nome: </label><input type="text" name="nome" size="20" maxlength="50"><br>
+        <br>
+        <label>Endereço: </label><input type="text" name="endereco" maxlength="70"><br>
+        <br>
+        <label>Telefone: </label><input type="tel" name="telefone" size="20" maxlength="15"><br>
+        <br>
+        <label>Email: </label><input type="email" name="email" size="30" maxlength="50"><br>
+        <br>
+        <label>Sexo:</label><input type="radio" id="S_M" name="sexo" value="M"><label for="S_M">Masculino</label><input type="radio" id="S_F" name="sexo" value="F"><label for="S_F">Feminino</label><input type="radio" id="N_I" name="sexo" value="NI"><label for="N_I">Prefiro não informar</label><br>
+        <br>
+        <label>Estado</label><select name="estado" id="estado">
+            <option value="AC">Acre</option>
+            <option value="AL">Alagoas</option>
+            <option value="AP">Amapa</option>
+            <option value="AM">Amazonas</option>
+        </select><br>
+        <br>
+        <input type="submit" name="enviar">
+    </form> 
+</body>
+</html>
