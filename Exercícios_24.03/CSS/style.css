@@ -60,7 +60,7 @@ p{
     margin-left: 250px; 
     margin-right: auto; 
     text-align: left;
-    word-break:break-all;
+    word-break:break-word;
     padding: 10px;
     width: 650px;
     margin: 0 auto;
